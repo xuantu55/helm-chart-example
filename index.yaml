@@ -7,6 +7,6 @@ entries:
     digest: 111e4475ee511fceb181ad7016777d964cfac2e3e885cdcdc212b19be0cd74b9
     name: generic-app
     urls:
-    - https://github.com/xuantu55/helm-chart-example/charts/generic-app-0.1.0.tgz
+    - https://xuantu55.github.io/helm-chart-example/charts/generic-app-0.1.0.tgz
     version: 0.1.0
 generated: "2025-05-16T16:47:51.463843+07:00"
