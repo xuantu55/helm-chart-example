@@ -2,23 +2,31 @@ apiVersion: v1
 entries:
   app-with-cronjob:
   - apiVersion: v2
-    created: "2025-05-19T11:27:39.903228+07:00"
+    created: "2025-05-19T16:06:58.320339+07:00"
     dependencies:
     - name: generic-app
       repository: file://../generic-app
       version: 0.1.0
-    digest: bc34a08cca29557c164d5f8a66224eac56f88f47daeac99c3daf6b863222f14c
+    digest: 044492d8cc9068a2a1ac1cfc65ccc3d95ceec3d04087dedf765127ab6e68bde4
     name: app-with-cronjob
     urls:
     - app-with-cronjob-0.1.0.tgz
     version: 0.1.0
   generic-app:
   - apiVersion: v2
-    created: "2025-05-19T11:27:39.906317+07:00"
+    created: "2025-05-19T16:06:58.323599+07:00"
     description: A generic Helm chart for multiple apps
-    digest: cab9f405c5a17a66675f0cf0f54fe995f64728e2f6a6feb13326105855b60dbf
+    digest: db325980371712baf3bebe9fea31bcb292b2ab39921054a8421d7d7c646e9715
     name: generic-app
     urls:
     - generic-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-19T11:27:39.898565+07:00"
+  generic-app-cronjob:
+  - apiVersion: v2
+    created: "2025-05-19T16:06:58.328048+07:00"
+    digest: 41d5d200535ada3907beeec0ee6f460c12157ff187ba5233ccace92942c6bbe7
+    name: generic-app-cronjob
+    urls:
+    - generic-app-cronjob-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-19T16:06:58.315087+07:00"
